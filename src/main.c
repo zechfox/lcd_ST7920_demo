@@ -19,6 +19,8 @@
 
 #include <libopencm3/stm32/rcc.h>
 #include <libopencm3/stm32/gpio.h>
+#include <libopencm3/stm32/i2c.h>
+#include <libopencm3/stm32/dma.h>
 
 static void gpio_setup(void)
 {
@@ -35,6 +37,21 @@ static void gpio_setup(void)
 	/* Using API functions: */
 	gpio_set_mode(GPIOA, GPIO_MODE_OUTPUT_2_MHZ,
 		      GPIO_CNF_OUTPUT_PUSHPULL, GPIO1);
+}
+
+void i2c_setup(void)
+{
+
+}
+
+void dma_setup(void)
+{
+
+}
+
+void lcd_setup(void)
+{
+
 }
 
 int main(void)

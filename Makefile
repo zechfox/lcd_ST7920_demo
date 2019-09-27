@@ -10,7 +10,7 @@
 #    (ie, the full set of cpu arch flags, _none_ are defined in this file)
 
 
-PROJECT = opencm3-demo
+PROJECT = lcd-demo
 BUILD_DIR = bin
 
 SOURCE_PATH = ./src
