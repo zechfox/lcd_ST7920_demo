@@ -25,7 +25,7 @@ CFILES += $(PROJECT_SRCS)
 # TODO - you will need to edit these two lines!
 # define device will generates LDSCRIPT, OPENCM3_LIB, OPENCM3_DEFS and ARCH_FLAGS options
 DEVICE = stm32f103rct6
-OOCD_FILE = board/stm32f4discovery.cfg
+OOCD_FILE = ./board/zidian_mini.cfg
 
 VPATH += $(SHARED_DIR)
 INCLUDES += $(patsubst %,-I%, . $(SHARED_DIR))
